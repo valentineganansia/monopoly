@@ -199,6 +199,19 @@ body{
     background-color: #d061cd;
 }
 
+.player.shadowed.jailed{ /* sad face to users in jail */
+ background-image:url(../images/sad.png);
+  background-size:contain;
+  background-position:center;
+}
+
+/*MARCHE PAS A MODIFIER */
+.home{ /* Smiling face users on their own property*/
+ background-image:url(../images/smiley.png);
+  background-size:contain;
+  background-position:center;
+}
+
 .player.current-turn{
     background-image:url(../images/crown.png);
     background-size:contain;
@@ -214,7 +227,7 @@ body{
     width: 25%;
     height: 25%;
     margin: 4%;
-    background-color: black;
+    background-color:#364c9c; /*color of the circle dice done */
     border-radius: 100px;
     opacity:0;
 }
